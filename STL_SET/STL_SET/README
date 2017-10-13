@@ -1,1 +1,2 @@
-Basic work with map contaiser.
+Basic work with map contaiser. 
+One remark ! In map you can not change value because it causes crush structure of data ! 
