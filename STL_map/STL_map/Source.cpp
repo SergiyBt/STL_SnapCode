@@ -12,6 +12,8 @@ int main(){
 	mymap.insert(make_pair('c',54));
 	mymap.insert(make_pair('b',-4));
 
+	mymap['v'] = -10; // alternative way
+
 	for(map<char,int>::const_iterator it = mymap.begin(); it != mymap.end(); it++)
 		cout<<it->first<<' '<<it->second<<"\n";
 	cout<<"\n";
